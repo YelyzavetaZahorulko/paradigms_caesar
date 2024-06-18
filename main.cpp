@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include "encrypt_decrypt.h"
 
 extern "C" {
     char* encrypt(const char* rawText, int key) {
